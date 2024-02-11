@@ -7,7 +7,7 @@ export function renderVideoCard(video) {
 
   for (let i = 0; i < robaczkoweShoty.length; i++) {
     console.log(robaczkoweShoty[i]);
-    container.innerHTML += getElement(robaczkoweShoty[i]);
+    container.innerHTML += getVideo(robaczkoweShoty[i]);
   }
 }
 
